@@ -24,6 +24,8 @@ namespace LoanCalculator.Core.Domain
         [DisplayName("Years Employed")]
         public int YearsEmployed { get; set; }
 
+
+
         [Required]
         [DisplayName("Credit Score")]
         public int CreditScore { get; set; }
